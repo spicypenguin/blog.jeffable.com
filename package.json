@@ -1,0 +1,8 @@
+{
+  "_aerobatic": {
+    "build": {
+      "engine": "hugo",
+      "themeRepo": "https://github.com/digitalcraftsman/hugo-hikari-theme.git"
+    }
+  }
+}
