@@ -1,0 +1,7 @@
+baseurl = "http://blog.superfucking.cool/"
+languageCode = "en-us"
+title = "Super fucking cool stuff, thoughts and ideas"
+
+[Params]
+	Author = "Jeff Sinclair"
+	disqusShortname = "superfuckingcool-blog"
