@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Super fucking cool stuff, thoughts and ideas</title>
+    <link>http://blog.superfucking.cool/post/</link>
+    <description>Recent content in Posts on Super fucking cool stuff, thoughts and ideas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 02 Apr 2016 10:37:49 -0700</lastBuildDate>
+    <atom:link href="http://blog.superfucking.cool/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hotel - An easier way to manage local .dev environments</title>
+      <link>http://blog.superfucking.cool/post/managing-local-dev-environments/</link>
+      <pubDate>Sat, 02 Apr 2016 10:37:49 -0700</pubDate>
+      
+      <guid>http://blog.superfucking.cool/post/managing-local-dev-environments/</guid>
+      <description>&lt;p&gt;I just recently stumbled across &lt;a href=&#34;https://github.com/typicode/hotel&#34;&gt;Hotel&lt;/a&gt;, a super simple way to manage local dev environments without having to resort to manipulating your /etc/hosts file and having lots of terminal windows open to spin up/down your various applications.&lt;/p&gt;
+
+&lt;p&gt;3 simple steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Install hotel:&lt;/strong&gt; &lt;code&gt;npm install -g hotel&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Start hotel:&lt;/strong&gt; &lt;code&gt;hotel start&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Add your application:&lt;/strong&gt; &lt;code&gt;hotel add &#39;&amp;lt;command to start your application&amp;gt; $PORT&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Running command 3 from the root of your applications folder, and passing in the &lt;strong&gt;$PORT&lt;/strong&gt; variable will allow your application to be started on a random port from a slick UI.&lt;/p&gt;
+
+&lt;p&gt;Try it out!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
