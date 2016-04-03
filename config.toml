@@ -24,7 +24,7 @@ theme = "hugo-hikari-theme"
 [params.offcanvas]
 	# Menu items
 	title = "Hi, I'm Jeff Sinclair"
-	bio = "Senior Product Manager; liker of cool shit; buyer of things that I cannot fucking afford. Aiming to get some thoughts down onto paper as I explore various web technologies in my spare time. The thoughts and language on this blog is my own, and not representative of my current or past employers."
+	bio = "Senior Product Manager; liker of cool shit; buyer of things that I cannot fucking afford. Aiming to get some thoughts down onto paper as I explore various web technologies in my spare time. <br/> The thoughts and language on this blog are my own, and not representative of my current or past employers."
 	subscribe = "Subscribe"
 	followme = "Follow me on"
 
