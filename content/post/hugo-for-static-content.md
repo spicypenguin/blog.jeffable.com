@@ -1,10 +1,11 @@
 +++
-date = "2016-04-02T12:08:22-07:00"
-draft = true
+date = "2016-04-04T13:28:13-07:00"
+draft = false
 description = ""
 title = "Part 1: Zero-to-blog in less than 2 hours; Hugo for the win."
 
 +++
+
 I built this entire blog using 3 very basic pieces of technology, which are simple enough for any hack-a-day dev like myself to master very quickly.
 
 * [Hugo](http://gohugo.io)
@@ -37,3 +38,24 @@ mkdir themes && cd themes
 git clone https://github.com/digitalcraftsman/hugo-hikari-theme.git
 
 ```
+
+This is where I fucked up and ended up taking way longer to get this going than I expected. Basically, I chose not to RTFM and that resulted in me scratching my head a little bit trying to work out how to get things going. The important step that I missed was to copy the `config.toml` from within the themes `examplesite` folder; there was some important stuff in there that meant that when I went to create the public static site the build failed.
+
+Lesson Learnt.
+
+Once you've set that up, you can run the blog in dev by running the following command:
+
+```
+hugo server --buildDrafts
+```
+
+If that all looks good, then you can run:
+
+```
+hugo undraft content/post/my-first-post.md
+hugo
+```
+
+This will create a folder for you called /public/ which is the static representation of what hugo has output (combinging your content with the selected theme). At this stage, if your site built correctly - you're now ready to get it deployed!
+
+More details will be revealed on this in part 2, showing how you can go from here to deployed on a production website with just a few more commands and clicks.
