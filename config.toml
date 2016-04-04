@@ -2,7 +2,7 @@ baseurl = "http://blog.superfucking.cool/"
 languageCode = "en-us"
 title = "Super fucking cool stuff, thoughts and ideas"
 disqusShortname = "superfuckingcool-blog"
-googleAnalytics = ""
+googleAnalytics = "UA-66649205-2"
 theme = "hugo-hikari-theme"
 
 [params]
