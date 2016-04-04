@@ -2,7 +2,7 @@
 date = "2016-04-04T14:20:08-07:00"
 draft = false
 description = ""
-title = "Part 2: From zero-to-blog in less than 2 hours; Bitbucket + Aerobatic make it schwifty"
+title = "Part 2: Zero-to-blog in less than 2 hours; Bitbucket + Aerobatic make it schwifty"
 
 +++
 
