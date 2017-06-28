@@ -5,6 +5,6 @@ pipelines:
     - step:
         script:
           - apk add git
-          - cd themes && git clone https://github.com/digitalcraftsman/hugo-hikari-theme.git && cd ..
+          - mkdir themes && cd themes && git clone https://github.com/digitalcraftsman/hugo-hikari-theme.git && cd ..
           - hugo
           - aws s3 sync --delete public s3://aws-website-blogsuperfuckingcool-1a9mp 
