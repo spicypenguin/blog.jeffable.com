@@ -1,5 +1,5 @@
 +++
-date = "2017-06-27-04T22:45:00-07:00"
+date = "2017-06-27T22:45:00-07:00"
 draft = false
 description = ""
 title = "Change of origin to fix index subfolder woes in AWS S3+Cloudfront websites"
