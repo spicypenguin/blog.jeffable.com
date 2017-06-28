@@ -1,4 +1,4 @@
-baseurl = "http://blog.superfucking.cool/"
+baseurl = "//blog.superfucking.cool/"
 languageCode = "en-us"
 title = "Super fucking cool stuff, thoughts and ideas"
 disqusShortname = "superfuckingcool-blog"
@@ -8,7 +8,7 @@ theme = "hugo-hikari-theme"
 [params]
 	name = "Jeff Sinclair"
 	description = "A super fucking cool blog, with some super fucking cool thoughts, ideas and discoveries."
-	copyright = "POWERED BY [HUGO](//gohugo.io) - THEME: [HIKARI](//github.com/digitalcraftsman/hugo-hikari-theme) - Â© JOHN DOE"
+	copyright = "POWERED BY [HUGO](//gohugo.io) - THEME: [HIKARI](//github.com/digitalcraftsman/hugo-hikari-theme) - © JOHN DOE"
 
 	# Custom assets can be linked with their paths relative to static/
 	custom_css = []
