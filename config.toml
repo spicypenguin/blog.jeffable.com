@@ -1,14 +1,14 @@
-baseurl = "//blog.superfucking.cool/"
+baseurl = "//blog.jeffable.com/"
 languageCode = "en-us"
-title = "Super fucking cool stuff, thoughts and ideas"
-disqusShortname = "superfuckingcool-blog"
+title = "Super cool stuff, thoughts and ideas"
+disqusShortname = "jeffable-blog"
 googleAnalytics = "UA-66649205-2"
 theme = "hugo-hikari-theme"
 
 [params]
 	name = "Jeff Sinclair"
-	description = "A super fucking cool blog, with some super fucking cool thoughts, ideas and discoveries."
-	copyright = "POWERED BY [HUGO](//gohugo.io) - THEME: [HIKARI](//github.com/digitalcraftsman/hugo-hikari-theme) - © JOHN DOE"
+	description = "A super cool blog, with some super cool thoughts, ideas and discoveries."
+	copyright = "POWERED BY [HUGO](//gohugo.io) - THEME: [HIKARI](//github.com/digitalcraftsman/hugo-hikari-theme) - ï¿½ JOHN DOE"
 
 	# Custom assets can be linked with their paths relative to static/
 	custom_css = []
@@ -18,13 +18,13 @@ theme = "hugo-hikari-theme"
 	newer = "Newer"
 	older = "Older"
 
-	pageNotFoundTitle = "Not fucking cool - Couldn't find shit."
-	pageNotFoundSubtitle = "Sorry, but something fucked up and we couldn't find the shit that you asked for. Try again later, maybe. Or fucking don't?"
+	pageNotFoundTitle = "Not cool - Couldn't find it."
+	pageNotFoundSubtitle = "Sorry, but something messaged up and we couldn't find the thing that you asked for. Try again later, maybe. Or don't?"
 
 [params.offcanvas]
 	# Menu items
 	title = "Hi, I'm Jeff Sinclair"
-	bio = "Senior Product Manager; liker of cool shit; buyer of things that I cannot fucking afford. Aiming to get some thoughts down onto paper as I explore various web technologies in my spare time. <br/> The thoughts and language on this blog are my own, and not representative of my current or past employers."
+	bio = "Product Leader; liker of cool stuff; buyer of things that I cannot afford. Aiming to get some thoughts down onto paper as I explore various web technologies in my spare time. <br/> The thoughts and language on this blog are my own, and not representative of my current or past employers."
 	subscribe = "Subscribe"
 	followme = "Follow me on"
 
